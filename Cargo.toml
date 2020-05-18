@@ -20,7 +20,7 @@ amethyst = ["amethyst_core", "amethyst_error"]
 
 [dependencies]
 log = "0.4.6"
-specs = "0.16.0"
+specs = { version = "0.16.0", default-features = false, features = ["shred-derive", "specs-derive"] }
 specs-hierarchy = "0.6.0"
 shrev = "1.1.1"
 nalgebra = "0.19.0"
